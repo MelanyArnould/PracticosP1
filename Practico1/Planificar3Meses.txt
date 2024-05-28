@@ -1,0 +1,32 @@
+Planificar proximos 3 meses de mi vida:
+
+Mes 1: Arranco clases
+Mes 2: Me voy de viaje
+Mes 3: Sigo con clases 
+
+Descomposicion por niveles, los problemas no triviales los debemos descomponer
+
+Nivel 2: Me voy de viaje a Rio
+
+Reservar pasaje de avion y hotel (ya tengo licencia y plata solucionado)
+Armar valijas
+Tomar el avion el dia y hora de viaje
+Disfrutar!
+
+Nivel 3: Tomar el avion el dia y hora del viaje
+
+Hacer check-in web
+Ir al aeropuerto
+Si twwngo valijas para despachar
+    Despacho valijas
+Embarcar
+Viajar
+
+Nivel 4: Despachar valijas
+
+Mientras tengo valijas a despachar
+    Tomo valijas(para que la condicion en algun momento se deje de cumplir)
+    La pongo en cinta para pesar
+Si PesoTotal es mayor que MaximoPermitido
+    pago sobrecarga
+Fin Si

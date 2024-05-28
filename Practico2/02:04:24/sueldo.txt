@@ -1,0 +1,15 @@
+Variables sueldo, antiguedad, total
+total = 0
+Leer sueldo
+Mientras sueldo != 0
+    Leer antiguedad
+    Si antiguedad > 10
+        sueldo = sueldo * 1.2
+    fin Si
+    Si antiguedad >= 5 y antiguedad <= 10
+        sueldo = sueldo * 1.1
+    FIn Si
+total = total + sueldo
+Leer sueldo
+Fin Mientras
+Mostrar total

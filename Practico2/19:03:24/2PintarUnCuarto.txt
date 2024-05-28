@@ -1,0 +1,10 @@
+Si no tengo materiales
+    comprar
+Fin Si
+
+Repetir 4 veces
+    Elijo pared sin pintar
+    Pintar pared
+Fin Repetir
+
+Pintar techo

@@ -1,0 +1,14 @@
+Leer 3 datos (2 son repetidos)
+Indicar cual es el repetido
+
+Definir dato1, dato2, dato3
+Mostrar "Ingrese dato1"
+Leer dato1
+Mostrar "Ingrese dato2"
+Leer dato2
+Mostrar "Ingrese dato3"
+Leer dato3
+Si dato1 == dato2
+Mostrar "El repetido es:" + dato1
+Sino
+Mostrar "El repetido es:" + dato3

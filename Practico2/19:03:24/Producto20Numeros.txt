@@ -1,0 +1,10 @@
+Definir: dato, producto, van
+Van = 0
+producto = 1
+Mientras van < 20
+    Mostrar "Ingrese numero"
+    Leer dato
+    producto = producto * dato
+    van = van +1
+Fin Mientras
+Mostrar "El producto es:" + producto

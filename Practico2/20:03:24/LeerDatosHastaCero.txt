@@ -1,0 +1,36 @@
+Cuantos valores mayores a 50 ingresa el usuario hasta que ingresa un cero?
+
+Variables: dato, cantidad
+dato=-1
+Mientras dato != 0
+    Mostrar "ingrese un numero"
+    Leer dato
+    Si dato > 50
+    cantidad = cantidad + 1
+    Fin Si
+Fin Mientras
+Mostrar cantidad
+
+Variables: dato, cantidad
+Mostrar "ingrese un numero"
+Leer dato
+Mientras dato != 0
+    Si dato > 50
+    cantidad = cantidad + 1
+    Fin Si
+    Leer dato
+Fin Mientras
+Mostrar cantidad
+
+Variables: dato, contador
+contador=0
+Repetir
+    Mostrar "ingrese un numero"
+    Leer dato
+    Si dato > 50
+    contador = contador + 1
+    Fin Si
+Hasta dato == 0
+Mostrar contador
+
+Hacemos corrrida a mano, siempre debemos probar casos borde

@@ -1,0 +1,8 @@
+Lunes, Miercoles, Viernes : tren inferior
+Martes y Jueves: tren superior\
+
+Nivel 2:
+Tren inferior
+Lunes: Cuadriceps
+Miercoles: Posteriores
+Viernes:Gluteos

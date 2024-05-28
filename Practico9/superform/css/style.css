@@ -1,0 +1,13 @@
+body {
+    background-color: darkslategrey;
+    color: beige;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1 {
+    font-size: 50px;
+}
+#idBoton {
+    width: 60px;
+    color: blueviolet;
+    background-color: black;
+}

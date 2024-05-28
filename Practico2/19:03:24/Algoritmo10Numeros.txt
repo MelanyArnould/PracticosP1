@@ -1,0 +1,17 @@
+variable: numero, suma
+Suma = 0
+Repetir 10 veces
+    Leer numero
+    Suma = suma + numero
+Fin Repetir
+Mostrar "La suma es" + suma 
+
+variable: numero, suma, cantidad
+Suma = 0
+Cantidad = 0 (1)
+Mientras Cantidad <(<=) 10
+    Leer numero
+    Suma = suma + numero
+    Cantidad = Cantidad + 1
+Fin Repetir
+Mostrar "La suma es" + suma 

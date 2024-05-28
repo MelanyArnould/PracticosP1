@@ -1,0 +1,39 @@
+Indicar el promedio de los valores ingresados hasta que se ingrese el numero 99 (99 no se cuenta para el promedio)
+
+Caso 1: 1, 100, -3, 99 -> 32.66
+Caso 2: 99 -> Mensaje de error no hay datos para procesar
+
+Variables: dato ,datoAnterior, contador
+datoAnterior = 0
+contador = 0
+Mostrar "Ingrese un numero"
+Leer dato
+Si dato == 99
+Mostrar "No hay datos para procesar"
+Sino 
+contador = contador +1
+datoAnterior = dato + datoAnterior
+Mostrar "El promedio es:" ( (dato + datoAnterior) / contador)
+Fin Si
+
+
+Promedio = 0
+suma = 0
+cantidad =0
+Leer dato
+Mientas dato != 99
+    suma = suma + dato
+    cantidad = cantidad +1
+    Leer dato
+Fin Mientras
+Si cantidad !=0
+    Mostrar Promedio
+Sino
+    Mostrar "Error"
+Fin Si
+
+
+
+
+
+

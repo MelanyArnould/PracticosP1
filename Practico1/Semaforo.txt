@@ -1,0 +1,10 @@
+Mirar a b
+    Si semaforo en b esta en rojo 
+        mirar a c
+    Fin Si
+Cruzar
+Mirar a D
+    Mientras semaforo d esta en rojo
+        esperar
+    Fin mientras
+Cruzar

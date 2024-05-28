@@ -1,0 +1,1 @@
+Leer N, asumir ese N positivo y mostrar en pantalla tantos * como el N ingresado. (version vertical y horizontal)

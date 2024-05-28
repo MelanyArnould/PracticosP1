@@ -1,0 +1,11 @@
+Defino num1,num2,aux
+Leer num1
+leer num2
+Si num1 > num2
+    aux = num1
+    num1 = num2
+    num2 = aux
+Fin Si
+Para n = num1 hasta num2 // for (n=num1; n<=num2; n=n+1)
+    Mostrar n 
+Fin Para

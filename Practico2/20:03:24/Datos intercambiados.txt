@@ -1,0 +1,9 @@
+variables: dato1,dato2,intercambiador
+Mostrar "ingrese el primer dato"
+Leer dato1
+Mostrar "ingrese el segundo dato"
+Leer dato2
+intercambiador = dato1
+dato1 = dato 2
+dato1 = intercambiador
+Mostrar "Los datos son:" + dato1 + dato2

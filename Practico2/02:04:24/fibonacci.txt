@@ -1,0 +1,13 @@
+Repetir
+    Leer n 
+Hasta que n >= 2
+F1 = 0
+F2 = 1
+Mostrar F1
+Mostrar F2
+Para F=3 hasta n 
+    prox = F1 + F2
+    Mostrar prox
+    F1 = F2
+    F2 = prox
+Fin Para

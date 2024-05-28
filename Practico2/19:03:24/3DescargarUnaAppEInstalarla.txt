@@ -1,0 +1,5 @@
+Buscar app en play store
+Si encontre app y es compatible con el s.o.
+    Descargar 
+    Instalar
+Fin Si

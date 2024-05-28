@@ -1,0 +1,8 @@
+let precio, totalConIva;
+Mostrar "ingrese el preco sin IVA"
+Leer precio
+Total con iva = precio * 1,22;
+Mostrar "El monto con iva es" + totalConIva
+
+Ejemplo 2:
+Mostrar "El monto con iva es:" + (precio * 1.22)

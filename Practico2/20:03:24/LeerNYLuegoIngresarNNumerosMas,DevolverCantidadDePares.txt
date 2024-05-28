@@ -1,0 +1,15 @@
+
+Variables: N, cantidadPares
+Leer N
+Para van=1 hasta N // for (van = 1; van <= N; van+1)
+    Leer dato
+    Si dato Mod(%) 2 == 0
+    cantidad = cantidad +1
+    Fin Si
+Fin Para
+
+Si cantidad = 0
+    Mostrar "No hay datos para procesar"
+Sino
+    Mostrar cantidad
+Fin Si
