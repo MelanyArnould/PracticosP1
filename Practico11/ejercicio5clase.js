@@ -5,9 +5,12 @@ let participante = {
     imprimir: function() {
          return "Nombre de jugador: " + this.nombre + "\n Puntos actuales: "+ this.puntos
     },
-    aumentarPuntos: function() {
-        this.puntos++;
-        return this.puntos;
+    // aumentarPuntos: function() {
+    //     this.puntos++;
+    //     return this.puntos;
+    // },
+    aumentarPuntos: function(cantidad) {
+        this.puntos =this.puntos+cantidad
     },
     verificarSiGano: function() {
         let supera = "El jugador tiene menos de 1000 puntos";
@@ -17,6 +20,7 @@ let participante = {
         console.log(supera);
     }
 }
+console.log(participante)
 console.log(participante.imprimir())
 console.log(participante.aumentarPuntos())
 console.log(participante.aumentarPuntos())
