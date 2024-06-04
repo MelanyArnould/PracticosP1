@@ -15,27 +15,30 @@ class Contacto {
         return this.nombre + " " + this.apellido
     }
     compararCon(otroContacto) {
-        let resultado
-        if (this.edad < otroContacto.edad) {
-            resultado = -1;
-        } else if (this.edad > otroContacto.edad) {
-            resultado = 1;
-        } else {
-            resultado = 0;
-        }
-        return resultado;
-        //return this.edad-otroContacto.edad;
+        // let resultado
+        // if (this.edad < otroContacto.edad) {
+        //     resultado = -1;
+        // } else if (this.edad > otroContacto.edad) {
+        //     resultado = 1;
+        // } else {
+        //     resultado = 0;
+        // }
+        // return resultado;
+        return this.edad-otroContacto.edad;
     }
     compararConPorEdadYApellido(otroContacto) {
         let resultado = this.edad - otroContacto.edad;
-        if (resultado == 0){
-            if(this.apellido < otroContacto.apellido) {
-                resultado = -1;
-            } else if (this.apellido > otroContacto.apellido) {
-                resultado = 1;
-            } else {
-                resultado = 0;
-            }
+        // if (resultado == 0){
+        //     if(this.apellido < otroContacto.apellido) {
+        //         resultado = -1;
+        //     } else if (this.apellido > otroContacto.apellido) {
+        //         resultado = 1;
+        //     } else {
+        //         resultado = 0;
+        //     }
+        // }
+        if (resultado == 0) {
+            resultado = this.apellido.localeCompare(otroContacto.apellido);
         }
     }
 }
