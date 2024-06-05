@@ -63,4 +63,14 @@ class Agenda {
         return resultado;
     }
     
+    existeContacto(unContacto) {
+        let existe = false;
+        for (let posicion = 0; posicion < this.listaContactos.length && !existe ; posicion++) {
+            let objetoContacto = this.listaContactos[posicion];
+            if (objetoContacto.telefono==unContacto.telefono) {
+                existe = true;
+            }
+        }
+        return existe;
+    }
 }
